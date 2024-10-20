@@ -1,0 +1,52 @@
+/* Leagues.css */
+
+/* General container styling */
+.container {
+    padding: 2rem;
+  }
+  
+  h1.text-center {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  /* Card styling for each league */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0056b3; /* Customize this color as needed */
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Adjust spacing between cards */
+  .row {
+    margin-top: 2rem;
+  }
+  
+  /* Button Styling (if needed for navigation) */
+  .btn-primary {
+    background-color: #0056b3;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #004494;
+  }
+  
+  
